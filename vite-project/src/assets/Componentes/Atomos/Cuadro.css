@@ -1,0 +1,90 @@
+  /* NuevoArchivo.css */
+
+  .cuadro-container {
+    width: 300px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top: -175px;
+    margin-left: 20px;
+  }
+
+  .fondo-con-imagen-container {
+    position: relative;
+    height: 300px; /* Altura total del contenedor */
+  }
+
+  .fondo-con-imagen-container::before {
+    content: "";
+    position: absolute;
+    border-radius: 10px;
+    top: 1px; /* Ajusta esta propiedad para subir la posición de la imagen */
+    left: 0;
+    width: 100%;
+    height: 75px; /* Altura para ocupar un cuarto de la parte superior */
+    background-image: url('https://s3-alpha-sig.figma.com/img/58d5/1283/e2c6b3e8823f986895c809ba308dfdbc?Expires=1709510400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LYXt5tjAPQNfjdgJ5LAvS7DnGvpweROkP-5qG~NM4rfb9MDxvJWipsuaHEftI8aP1RSp8OFbMMKAPqv-YwyhXOUHamZO8NrPTCRuG-QuJNMOCHdwWAMouprEuFC73cMVmZjdUWmnwX7LMrXn-ISCbVedwGFq2~B0MX36M5HAbal~VIAWj2kQPsepdCHVklrZuwfT8AN0YJaGRlbgErZa7UjDaNh3~OWfMK~zuQQd~XSauxi9u8xSSadUakwxYU1EkqmC7u2~QKVXO7Em1mAYyzSvdctCTZu82ZX-7nmKz79Ff-4BKTaEGdCkHQgl0uK5I2OvJZrWL2GWhknjQQtpyA__');
+    background-size: 120%; /* Ajusta este valor para hacer más ancha la imagen */
+    background-position: center;
+  }
+
+  .imagen-circular-container {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 30%; /* Ajusta esta propiedad para centrar verticalmente la imagen */
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .imagen-circular {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%; /* Esto hace que la imagen sea circular */
+    object-fit: cover; /* Esto asegura que la imagen cubra todo el círculo */
+  }
+
+  /* NuevoArchivo.css */
+
+  .informacion-container {
+    text-align: center;
+    position: absolute;
+    top: 45%; /* Ajusta esta propiedad para bajar la posición del texto */
+    width: 100%; /* Asegura que el texto esté centrado horizontalmente */
+  }
+
+  .informacion-container strong {
+    font-size: 14px;
+    color: black;
+  }
+
+  .informacion-container p {
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+  }
+
+
+  .informacion-container {
+    flex-direction: row; /* Los elementos se colocan en una fila */
+    align-items: center; /* Alinea los elementos verticalmente al centro */
+    justify-content: space-between; /* Distribuye los elementos uniformemente a lo largo del eje principal */
+  }
+
+  .recuadro-combinado {
+    display: flex; /* Usa flexbox para alinear los elementos */
+    margin-bottom: 10px; /* Agrega un espacio entre los cuadros combinados */
+  }
+
+  .recuadro {
+    background-color: #ccc; /* Color de fondo */
+    padding: 5px 10px; /* Espaciado interno */
+    border-radius: 5px; /* Borde redondeado */
+    margin-right: 10px; /* Agrega un espacio entre los cuadros combinados */
+
+  }
+
+
+
+
+
+
+

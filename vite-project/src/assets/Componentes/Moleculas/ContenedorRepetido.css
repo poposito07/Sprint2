@@ -1,0 +1,10 @@
+.contenedor-repetido {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .contenedor-repetido img {
+    max-width: 100%;
+  }
+  

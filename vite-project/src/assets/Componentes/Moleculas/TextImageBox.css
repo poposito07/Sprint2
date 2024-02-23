@@ -1,0 +1,71 @@
+.nuevo-cuadro-container {
+  width: 300px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-top: 20px;
+  right: 20px; /* Alinea a la derecha */
+  top: 8%; /* Ajusta según la altura de la barra de búsqueda */
+  position: fixed; /* Fija la posición del cuadro */
+}
+
+/* Aplicamos el desplazamiento solo al contenido interno */
+.nuevo-cuadro-container .contenido {
+  max-height: 200px; /* Ajusta la altura máxima para activar el desplazamiento */
+  overflow-y: auto; /* Agrega una barra de desplazamiento vertical si es necesario */
+}
+
+/* Los estilos restantes permanecen iguales */
+.nuevo-imagen {
+  width: 280px; /* Tamaño deseado para la imagen */
+  margin-left: 10px; /* Ajusta el espacio desde la izquierda */
+  margin-bottom: 10px; /* Espacio entre cada imagen */
+}
+
+.nueva-informacion-container {
+  text-align: center;
+  line-height: 1.5; /* Interlineado personalizado */
+}
+
+.nueva-informacion-container strong {
+  font-size: 14px;
+  color: black;
+}
+
+.nueva-informacion-container p {
+  font-size: 10px;
+  color: rgb(0, 0, 0);
+}
+
+.contenedor-imagen {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 5px; /* Espacio entre cada imagen */
+}
+
+.texto-superpuesto {
+  position: absolute;
+  bottom: 17px; /* Posición vertical del texto desde la parte inferior */
+  left: 10px; /* Posición horizontal del texto desde el borde izquierdo */
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para que el texto sea legible */
+  padding: -1px; /* Espaciado interno para el texto */
+  color: white; /* Color del texto */
+  font-size: 12px; /* Tamaño de fuente del texto */
+  border-radius: 5px; /* Borde redondeado */
+}
+
+.boton-saber-mas {
+  background-color: #ccc; /* Color de fondo gris */
+  color: #716e6e; /* Color del texto */
+  font-size: 11px; /* Tamaño de fuente */
+  border: none; /* Sin borde */
+  padding: 5px 10px; /* Espaciado interno */
+  border-radius: 5px; /* Borde redondeado */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  margin-top: 10px; /* Margen superior para separar el botón del texto */
+}
+
+.boton-saber-mas:hover {
+  background-color: #999; /* Cambia el color de fondo al pasar el cursor */
+}
+
